@@ -8,7 +8,7 @@ function Footer() {
         <div>
         <p className="footer-title">Wise Devs</p>
         <p className="footer-copy">
-          Designed for COMP229 final project by Tarif Abdalla (Frontend/UI-UX).
+          MEET PEOPLE. BUILD TOGETHER
         </p>
         </div>
       </div>
