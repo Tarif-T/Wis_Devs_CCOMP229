@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import logoImage from '../assets/Wis_Devs_logo.jpeg'
 
 const links = [
   { to: '/', label: 'Home' },
@@ -11,9 +12,7 @@ function NavBar() {
   return (
     <header className="top-nav">
       <div className="brand-wrap">
-        <div className="brand-mark" aria-hidden="true">
-          WD
-        </div>
+        <img src={logoImage} alt="Wise Devs logo" className="brand-logo" />
         <div>
           <p className="brand-title">Wise Devs</p>
           <p className="brand-subtitle">Find your next community event</p>

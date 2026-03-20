@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom'
 import EventCard from '../components/EventCard'
+import logoImage from '../assets/Wis_Devs_logo.jpeg'
 import { events } from '../data/mockEvents'
 
 function HomePage() {
   return (
     <>
       <section className="hero-panel">
+        <img
+          src={logoImage}
+          alt="Wise Devs brand mark"
+          className="hero-logo-stamp"
+        />
         <p className="eyebrow">Meet people. Build together.</p>
         <h1>Discover events that match your interests and your energy.</h1>
         <p className="hero-copy">
