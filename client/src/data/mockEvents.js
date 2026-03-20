@@ -1,0 +1,70 @@
+export const eventCategories = [
+  'Technology',
+  'Career',
+  'Wellness',
+  'Art',
+  'Networking',
+]
+
+export const events = [
+  {
+    id: '1',
+    title: 'MERN Sprint Lab',
+    category: 'Technology',
+    date: 'Apr 12, 2026',
+    time: '6:00 PM',
+    location: 'Toronto Innovation Hub',
+    attendees: 37,
+    maxAttendees: 60,
+    host: 'Wise Devs Team',
+    price: 'Free',
+    description:
+      'Pair-program with developers and ship one complete mini-feature in a single evening.',
+    tags: ['React', 'Node.js', 'Hands-on'],
+  },
+  {
+    id: '2',
+    title: 'Designing Better Product Journeys',
+    category: 'Career',
+    date: 'Apr 16, 2026',
+    time: '5:30 PM',
+    location: 'Downtown Learning Studio',
+    attendees: 24,
+    maxAttendees: 45,
+    host: 'Tarif Abdalla',
+    price: '$10',
+    description:
+      'A practical workshop on user flows, visual hierarchy, and design decisions for web apps.',
+    tags: ['UI/UX', 'Figma', 'Product'],
+  },
+  {
+    id: '3',
+    title: 'Community Run + Coffee',
+    category: 'Wellness',
+    date: 'Apr 20, 2026',
+    time: '7:00 AM',
+    location: 'Lakeshore Trail',
+    attendees: 18,
+    maxAttendees: 30,
+    host: 'Toronto Active Circle',
+    price: 'Free',
+    description:
+      'Start your day with a social 5K run and post-run coffee with local community members.',
+    tags: ['Fitness', 'Community', 'Outdoor'],
+  },
+  {
+    id: '4',
+    title: 'Portfolio Night for New Developers',
+    category: 'Networking',
+    date: 'Apr 25, 2026',
+    time: '6:30 PM',
+    location: 'Centennial College Event Hall',
+    attendees: 54,
+    maxAttendees: 90,
+    host: 'COMP229 Mentors',
+    price: '$5',
+    description:
+      'Show your projects, get feedback, and connect with peers, alumni, and hiring teams.',
+    tags: ['Portfolio', 'Feedback', 'Career'],
+  },
+]
