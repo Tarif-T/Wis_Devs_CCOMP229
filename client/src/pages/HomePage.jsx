@@ -7,24 +7,29 @@ function HomePage() {
   return (
     <>
       <section className="hero-panel">
-        <img
-          src={logoImage}
-          alt="Wise Devs brand mark"
-          className="hero-logo-stamp"
-        />
-        <p className="eyebrow">Meet people. Build together.</p>
-        <h1>Discover events that match your interests and your energy.</h1>
-        <p className="hero-copy">
-          Wise Devs helps people create, discover, and join communities around
-          coding, creativity, and real-world connection.
-        </p>
-        <div className="hero-actions">
-          <Link to="/discover" className="solid-button">
-            Explore Events
-          </Link>
-          <Link to="/create-event" className="ghost-button">
-            Host an Event
-          </Link>
+        <div className="hero-panel-inner">
+          <div className="hero-copy-wrap">
+            <p className="eyebrow">Meet people. Build together.</p>
+            <h1>Discover events that match your interests and your energy.</h1>
+            <p className="hero-copy">
+              Wise Devs helps people create, discover, and join communities around
+              coding, creativity, and real-world connection.
+            </p>
+            <div className="hero-actions">
+              <Link to="/discover" className="solid-button">
+                Explore Events
+              </Link>
+              <Link to="/create-event" className="ghost-button">
+                Host an Event
+              </Link>
+            </div>
+          </div>
+
+          <img
+            src={logoImage}
+            alt="Wise Devs brand mark"
+            className="hero-logo-stamp"
+          />
         </div>
       </section>
 

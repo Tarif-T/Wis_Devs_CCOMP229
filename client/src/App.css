@@ -140,12 +140,23 @@
   animation: rise 550ms ease-out;
 }
 
+.hero-panel-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+.hero-copy-wrap {
+  max-width: 62ch;
+}
+
 .hero-logo-stamp {
-  position: absolute;
-  right: 1.4rem;
-  top: 1.2rem;
-  width: clamp(72px, 12vw, 130px);
+  flex: 0 0 clamp(90px, 15vw, 160px);
+  width: clamp(90px, 15vw, 160px);
+  height: clamp(90px, 15vw, 160px);
   border-radius: 1rem;
+  object-fit: cover;
   border: 1px solid rgba(126, 214, 255, 0.45);
   box-shadow: 0 16px 34px rgba(2, 8, 46, 0.6);
 }
@@ -507,8 +518,14 @@ label {
     display: none;
   }
 
+  .hero-panel-inner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
   .hero-logo-stamp {
-    position: static;
-    margin-bottom: 0.9rem;
+    width: 96px;
+    height: 96px;
+    margin-bottom: 0.7rem;
   }
 }
